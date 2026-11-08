@@ -1,0 +1,43 @@
+Cubemap IWI Tool V1 — third-party components
+
+NVIDIA Texture Tools 3.2.5, NVIDIA Corporation
+Runtime: nvtt30205.dll, distributed unchanged.
+This software contains source code provided by NVIDIA Corporation.
+The NVIDIA components are covered by NVIDIA-NVTT.txt and the accompanying
+NVIDIA-third-party.txt. Those terms apply to the distributed NVIDIA portions.
+Source SDK and documentation: https://developer.nvidia.com/gpu-accelerated-texture-compression
+
+PySide6 / Shiboken6 / Qt 6.11.1, The Qt Company and contributors
+Used under LGPL version 3. License texts: PySide6.txt and Qt.txt.
+The portable package dynamically links Qt and Shiboken; their DLLs can be
+replaced with compatible modified builds. No Qt/PySide source modifications
+have been made. Reverse engineering to debug modifications to these LGPL
+components is permitted under their licenses.
+Corresponding source archives (version 6.11.1):
+Qt Base, including Core, Gui, Widgets, OpenGL, OpenGLWidgets and Windows plugins:
+https://download.qt.io/official_releases/qt/6.11/6.11.1/submodules/qtbase-everywhere-src-6.11.1.tar.xz
+PySide6 and Shiboken6:
+https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.11.1-src/pyside-setup-everywhere-src-6.11.1.tar.xz
+Source repositories:
+https://code.qt.io/cgit/qt/qtbase.git/tag/?h=v6.11.1
+https://code.qt.io/cgit/pyside/pyside-setup.git/tag/?h=v6.11.1
+Build instructions:
+https://doc.qt.io/qt-6/windows-building.html
+https://doc.qt.io/qtforpython-6/building_from_source/index.html
+
+Replacing the shared libraries:
+Close the application before replacing files. Qt DLLs, PySide6 extension modules
+and Qt plugins are in _internal/PySide6/. Shiboken6 files are in
+_internal/shiboken6/. Build modified libraries for Windows x64 with a compatible
+compiler, Python ABI and Qt/PySide6 ABI, then replace the corresponding files,
+including matching plugins and dependencies. The application loads these shared
+libraries directly. Users may rebuild and run the application with modified
+LGPL libraries, and may reverse engineer the combined application to debug
+those modifications.
+
+Python 3.14: Python Software Foundation; Python.txt.
+NumPy 2.4.4: NumPy Developers and included contributors; numpy.txt.
+Pillow 12.2.0: Python Pillow contributors; Pillow.txt.
+PyInstaller 6.20.0 bootloader: GPL with the bootloader exception permitting
+distribution of bundled applications; PyInstaller.txt.
+

@@ -1,0 +1,1158 @@
+{
+  "app.title": {
+    "zh-CN": "Cubemap IWI · 天空盒处理工作站",
+    "en": "Cubemap IWI · Skybox Workstation"
+  },
+  "app.subtitle": {
+    "zh-CN": "天空盒处理",
+    "en": "Skybox processing"
+  },
+  "menu.file": {
+    "zh-CN": "文件(&F)",
+    "en": "&File"
+  },
+  "menu.view": {
+    "zh-CN": "视图(&V)",
+    "en": "&View"
+  },
+  "menu.tools": {
+    "zh-CN": "工具(&T)",
+    "en": "&Tools"
+  },
+  "menu.help": {
+    "zh-CN": "帮助(&H)",
+    "en": "&Help"
+  },
+  "menu.theme": {
+    "zh-CN": "外观主题",
+    "en": "Appearance"
+  },
+  "menu.language": {
+    "zh-CN": "界面语言",
+    "en": "Language"
+  },
+  "menu.background": {
+    "zh-CN": "画布背景",
+    "en": "Canvas background"
+  },
+  "mode.make": {
+    "zh-CN": "PNG 制作",
+    "en": "PNG authoring"
+  },
+  "mode.extract": {
+    "zh-CN": "IWI 拆解",
+    "en": "IWI extraction"
+  },
+  "mode.pack": {
+    "zh-CN": "DDS 打包",
+    "en": "DDS packing"
+  },
+  "action.import": {
+    "zh-CN": "导入素材…",
+    "en": "Import assets…"
+  },
+  "action.exit": {
+    "zh-CN": "退出",
+    "en": "Exit"
+  },
+  "action.reset_layout": {
+    "zh-CN": "恢复默认布局",
+    "en": "Reset layout"
+  },
+  "action.about": {
+    "zh-CN": "关于与许可",
+    "en": "About and licenses"
+  },
+  "action.help": {
+    "zh-CN": "使用说明",
+    "en": "User guide"
+  },
+  "action.make": {
+    "zh-CN": "制作天空盒",
+    "en": "Build skybox"
+  },
+  "action.pack": {
+    "zh-CN": "生成 IWI",
+    "en": "Create IWI"
+  },
+  "action.extract": {
+    "zh-CN": "导出六面 DDS",
+    "en": "Export six DDS faces"
+  },
+  "action.split": {
+    "zh-CN": "仅导出修缝 PNG",
+    "en": "Export repaired PNG faces"
+  },
+  "action.atlas": {
+    "zh-CN": "导出十字图",
+    "en": "Export cross atlas"
+  },
+  "action.mosaic": {
+    "zh-CN": "导出 3×2 网格",
+    "en": "Export 3×2 mosaic"
+  },
+  "action.panorama": {
+    "zh-CN": "导出全景",
+    "en": "Export panorama"
+  },
+  "action.preview": {
+    "zh-CN": "刷新预览",
+    "en": "Refresh preview"
+  },
+  "action.open_folder": {
+    "zh-CN": "打开输出位置",
+    "en": "Open output folder"
+  },
+  "action.fit": {
+    "zh-CN": "适应窗口",
+    "en": "Fit to view"
+  },
+  "action.actual": {
+    "zh-CN": "实际像素",
+    "en": "Actual pixels"
+  },
+  "action.zoom_in": {
+    "zh-CN": "放大",
+    "en": "Zoom in"
+  },
+  "action.zoom_out": {
+    "zh-CN": "缩小",
+    "en": "Zoom out"
+  },
+  "action.close": {
+    "zh-CN": "关闭",
+    "en": "Close"
+  },
+  "action.yes": {
+    "zh-CN": "继续覆盖",
+    "en": "Replace files"
+  },
+  "action.no": {
+    "zh-CN": "取消",
+    "en": "Cancel"
+  },
+  "action.clear": {
+    "zh-CN": "清空素材",
+    "en": "Clear assets"
+  },
+  "action.choose": {
+    "zh-CN": "浏览…",
+    "en": "Browse…"
+  },
+  "action.stage": {
+    "zh-CN": "切换压缩阶段",
+    "en": "Switch compression stage"
+  },
+  "dock.assets": {
+    "zh-CN": "素材",
+    "en": "Assets"
+  },
+  "dock.properties": {
+    "zh-CN": "制作参数",
+    "en": "Properties"
+  },
+  "dock.tasks": {
+    "zh-CN": "任务与结果",
+    "en": "Tasks and output"
+  },
+  "group.input": {
+    "zh-CN": "输入素材",
+    "en": "Input assets"
+  },
+  "group.faces": {
+    "zh-CN": "六面导航",
+    "en": "Cube faces"
+  },
+  "group.output": {
+    "zh-CN": "输出设置",
+    "en": "Output settings"
+  },
+  "field.rgb": {
+    "zh-CN": "RGB 十字图",
+    "en": "RGB cross atlas"
+  },
+  "field.alpha": {
+    "zh-CN": "Alpha 数据图",
+    "en": "Alpha data atlas"
+  },
+  "field.iwi": {
+    "zh-CN": "天空盒 IWI",
+    "en": "Skybox IWI"
+  },
+  "field.output": {
+    "zh-CN": "输出文件夹",
+    "en": "Output folder"
+  },
+  "field.iwi_output": {
+    "zh-CN": "IWI 输出文件",
+    "en": "Output IWI file"
+  },
+  "field.game": {
+    "zh-CN": "目标游戏",
+    "en": "Target game"
+  },
+  "field.format": {
+    "zh-CN": "压缩格式",
+    "en": "Compression"
+  },
+  "field.device": {
+    "zh-CN": "编码设备",
+    "en": "Encoder"
+  },
+  "field.quality": {
+    "zh-CN": "压缩质量",
+    "en": "Quality"
+  },
+  "field.mode": {
+    "zh-CN": "工作模式",
+    "en": "Workflow"
+  },
+  "field.layout": {
+    "zh-CN": "布局",
+    "en": "Layout"
+  },
+  "field.face": {
+    "zh-CN": "面",
+    "en": "Face"
+  },
+  "field.channel": {
+    "zh-CN": "通道",
+    "en": "Channel"
+  },
+  "field.stage": {
+    "zh-CN": "阶段",
+    "en": "Stage"
+  },
+  "field.compare": {
+    "zh-CN": "双视图",
+    "en": "Compare"
+  },
+  "field.zoom": {
+    "zh-CN": "缩放比例",
+    "en": "Zoom"
+  },
+  "format.bc1": {
+    "zh-CN": "BC1 / DXT1 · RGB",
+    "en": "BC1 / DXT1 · RGB"
+  },
+  "format.bc3": {
+    "zh-CN": "BC3 / DXT5 · RGB + 数据 Alpha",
+    "en": "BC3 / DXT5 · RGB + data alpha"
+  },
+  "quality.Fastest": {
+    "zh-CN": "最快",
+    "en": "Fastest"
+  },
+  "quality.Normal": {
+    "zh-CN": "标准",
+    "en": "Normal"
+  },
+  "quality.Production": {
+    "zh-CN": "生产质量",
+    "en": "Production"
+  },
+  "quality.Highest": {
+    "zh-CN": "最高质量",
+    "en": "Highest"
+  },
+  "layout.face": {
+    "zh-CN": "单面",
+    "en": "Face"
+  },
+  "layout.atlas": {
+    "zh-CN": "十字图",
+    "en": "Cross atlas"
+  },
+  "layout.mosaic": {
+    "zh-CN": "3×2 网格",
+    "en": "3×2 mosaic"
+  },
+  "layout.panorama": {
+    "zh-CN": "全景",
+    "en": "Panorama"
+  },
+  "stage.source": {
+    "zh-CN": "压缩前 · 已修缝",
+    "en": "Before compression · repaired"
+  },
+  "stage.dds": {
+    "zh-CN": "压缩预览 DDS",
+    "en": "Compressed DDS"
+  },
+  "stage.original": {
+    "zh-CN": "原始素材",
+    "en": "Original asset"
+  },
+  "face.rt": {
+    "zh-CN": "右 · rt",
+    "en": "Right · rt"
+  },
+  "face.lf": {
+    "zh-CN": "左 · lf",
+    "en": "Left · lf"
+  },
+  "face.up": {
+    "zh-CN": "上 · up",
+    "en": "Up · up"
+  },
+  "face.dn": {
+    "zh-CN": "下 · dn",
+    "en": "Down · dn"
+  },
+  "face.ft": {
+    "zh-CN": "前 · ft",
+    "en": "Front · ft"
+  },
+  "face.bk": {
+    "zh-CN": "后 · bk",
+    "en": "Back · bk"
+  },
+  "theme.dark": {
+    "zh-CN": "深色",
+    "en": "Dark"
+  },
+  "theme.light": {
+    "zh-CN": "浅色",
+    "en": "Light"
+  },
+  "background.dark": {
+    "zh-CN": "深灰",
+    "en": "Dark gray"
+  },
+  "background.light": {
+    "zh-CN": "浅灰",
+    "en": "Light gray"
+  },
+  "background.checker": {
+    "zh-CN": "棋盘格",
+    "en": "Checkerboard"
+  },
+  "empty.title": {
+    "zh-CN": "导入天空盒素材",
+    "en": "Import skybox assets"
+  },
+  "empty.body": {
+    "zh-CN": "选择工作模式，导入十字图、IWI 或六面 DDS。\n也可以将文件拖入左侧对应素材槽。",
+    "en": "Choose a workflow and import a cross atlas, IWI or six DDS faces.\nYou can also drop files onto the matching asset slots."
+  },
+  "empty.face": {
+    "zh-CN": "将 {face} DDS 拖入此处",
+    "en": "Drop {face} DDS here"
+  },
+  "empty.slot": {
+    "zh-CN": "未选择文件",
+    "en": "No file selected"
+  },
+  "empty.preview": {
+    "zh-CN": "当前选择没有对应图像",
+    "en": "No image is available for this selection"
+  },
+  "empty.compare": {
+    "zh-CN": "制作后可查看 DDS 对照",
+    "en": "Build a skybox to compare DDS output"
+  },
+  "status.ready": {
+    "zh-CN": "就绪",
+    "en": "Ready"
+  },
+  "status.started": {
+    "zh-CN": "正在处理…",
+    "en": "Processing…"
+  },
+  "status.complete": {
+    "zh-CN": "已完成 · {summary}",
+    "en": "Complete · {summary}"
+  },
+  "status.failed": {
+    "zh-CN": "处理失败",
+    "en": "Operation failed"
+  },
+  "status.loading": {
+    "zh-CN": "正在加载实际像素…",
+    "en": "Loading full-resolution pixels…"
+  },
+  "status.preview_size": {
+    "zh-CN": "{width} × {height} px  ·  {zoom:.1f}%",
+    "en": "{width} × {height} px  ·  {zoom:.1f}%"
+  },
+  "status.preview_pair": {
+    "zh-CN": "同步视图  ·  {width} × {height} px  ·  {zoom:.1f}%",
+    "en": "Linked views  ·  {width} × {height} px  ·  {zoom:.1f}%"
+  },
+  "status.busy_close": {
+    "zh-CN": "任务仍在执行，完成后可关闭窗口。",
+    "en": "A task is running. Close the window after it finishes."
+  },
+  "status.asset_count": {
+    "zh-CN": "已载入 {count} 个面",
+    "en": "{count} faces loaded"
+  },
+  "progress.decode": {
+    "zh-CN": "读取图像 · {face}",
+    "en": "Reading image · {face}"
+  },
+  "progress.atlas": {
+    "zh-CN": "读取十字图并修复 RGB 接缝",
+    "en": "Reading cross atlas and repairing RGB seams"
+  },
+  "progress.encode": {
+    "zh-CN": "编码 {face} · {mode}",
+    "en": "Encoding {face} · {mode}"
+  },
+  "progress.save": {
+    "zh-CN": "保存 {face}",
+    "en": "Saving {face}"
+  },
+  "progress.generate": {
+    "zh-CN": "生成 {layout} · {channel}",
+    "en": "Generating {layout} · {channel}"
+  },
+  "progress.panorama": {
+    "zh-CN": "全景采样 {done}/{total} 行",
+    "en": "Sampling panorama: row {done}/{total}"
+  },
+  "progress.complete": {
+    "zh-CN": "完成",
+    "en": "Complete"
+  },
+  "result.cube": {
+    "zh-CN": "{game} / V{version} · {format} · 单面 {size} × {size} · {seconds:.2f} 秒",
+    "en": "{game} / V{version} · {format} · {size} × {size} per face · {seconds:.2f} s"
+  },
+  "result.iwi": {
+    "zh-CN": "IWI V{version} · {format} · 单面 {size} × {size} · flags 0x{flags:X} · {seconds:.2f} 秒",
+    "en": "IWI V{version} · {format} · {size} × {size} per face · flags 0x{flags:X} · {seconds:.2f} s"
+  },
+  "result.atlas": {
+    "zh-CN": "单面 {size} × {size} · gutter {gutter}px · RGB 4px 修缝 · {seconds:.2f} 秒",
+    "en": "{size} × {size} per face · {gutter}px gutter · 4px RGB seam repair · {seconds:.2f} s"
+  },
+  "result.dds": {
+    "zh-CN": "已载入 {count} 个 DDS 面 · {seconds:.2f} 秒",
+    "en": "Loaded {count} DDS faces · {seconds:.2f} s"
+  },
+  "notice.make": {
+    "zh-CN": "RGB 每边固定修缝 4px。BC3 使用独立单通道 Alpha 图。",
+    "en": "RGB edges receive 4px seam repair. BC3 uses a separate grayscale alpha atlas."
+  },
+  "notice.extract": {
+    "zh-CN": "导出 DDS 保留原始六面压缩正文。",
+    "en": "DDS extraction preserves the original compressed face data."
+  },
+  "notice.pack": {
+    "zh-CN": "按 rt / lf / up / dn / ft / bk 绑定六面，保持原压缩正文。",
+    "en": "Assign rt / lf / up / dn / ft / bk faces. Compressed data is preserved."
+  },
+  "notice.alpha": {
+    "zh-CN": "8-bit 单通道 PNG；保持数据值，不参与 RGB 混色。",
+    "en": "8-bit grayscale PNG. Data values remain independent of RGB color."
+  },
+  "notice.cuda": {
+    "zh-CN": "默认 CPU。CUDA 的可用性取决于 NVTT 内核、显卡和驱动。",
+    "en": "CPU is the default. CUDA availability depends on the NVTT kernels, GPU and driver."
+  },
+  "dialog.replace_title": {
+    "zh-CN": "覆盖输出文件",
+    "en": "Replace output files"
+  },
+  "dialog.replace_body": {
+    "zh-CN": "输出位置已有本次将生成的同名文件。继续覆盖？",
+    "en": "Files with the same output names already exist. Replace them?"
+  },
+  "dialog.assign_title": {
+    "zh-CN": "分配 DDS 六面",
+    "en": "Assign DDS faces"
+  },
+  "dialog.assign_body": {
+    "zh-CN": "为每个面选择文件，文件名只用于显示。",
+    "en": "Choose a file for each face. File names are shown as labels."
+  },
+  "dialog.assign_apply": {
+    "zh-CN": "载入六面",
+    "en": "Load faces"
+  },
+  "filter.png": {
+    "zh-CN": "PNG 图像 (*.png)",
+    "en": "PNG images (*.png)"
+  },
+  "filter.iwi": {
+    "zh-CN": "天空盒 IWI (*.iwi)",
+    "en": "Skybox IWI (*.iwi)"
+  },
+  "filter.dds": {
+    "zh-CN": "单面 DDS (*.dds)",
+    "en": "Single-face DDS (*.dds)"
+  },
+  "about.title": {
+    "zh-CN": "关于与许可",
+    "en": "About and licenses"
+  },
+  "about.heading": {
+    "zh-CN": "Cubemap IWI Tool V1",
+    "en": "Cubemap IWI Tool V1"
+  },
+  "about.components": {
+    "zh-CN": "Python · PySide6 · NumPy · Pillow · NVIDIA Texture Tools",
+    "en": "Python · PySide6 · NumPy · Pillow · NVIDIA Texture Tools"
+  },
+  "error.os": {
+    "zh-CN": "文件或系统操作失败：{path}",
+    "en": "File or system operation failed: {path}"
+  },
+  "error.unexpected": {
+    "zh-CN": "处理过程中发生错误。",
+    "en": "An error occurred while processing."
+  },
+  "error.required": {
+    "zh-CN": "请选择{field}。",
+    "en": "Select {field}."
+  },
+  "error.busy": {
+    "zh-CN": "请等待当前任务完成。",
+    "en": "Wait for the current task to finish."
+  },
+  "error.preview_alpha": {
+    "zh-CN": "当前素材没有 Alpha 数据。",
+    "en": "This asset has no alpha data."
+  },
+  "error.preview_missing": {
+    "zh-CN": "当前选择没有可用的预览。",
+    "en": "No preview is available for this selection."
+  },
+  "error.dds_six": {
+    "zh-CN": "请绑定六个 DDS 面。",
+    "en": "Assign all six DDS faces."
+  },
+  "error.alpha_required": {
+    "zh-CN": "BC3 需要 Alpha 通道。十字图请指定独立 Alpha PNG。",
+    "en": "BC3 requires an Alpha channel. For a cross atlas, select a separate Alpha PNG."
+  },
+  "error.alpha_bc1": {
+    "zh-CN": "BC1 不保存 Alpha；请选择 BC3 或清空 Alpha 输入。",
+    "en": "BC1 does not store alpha. Select BC3 or clear the alpha input."
+  },
+  "error.face_operation": {
+    "zh-CN": "面 {face}：{reason}",
+    "en": "Face {face}: {reason}"
+  },
+  "error.unknown_action": {
+    "zh-CN": "未知操作：{action}",
+    "en": "Unknown operation: {action}"
+  },
+  "error.drop_one": {
+    "zh-CN": "请向该素材槽拖入一个文件。",
+    "en": "Drop one file onto this asset slot."
+  },
+  "error.open_folder": {
+    "zh-CN": "无法打开输出位置：{path}",
+    "en": "Could not open output location: {path}"
+  },
+  "error.models.face_size": {
+    "zh-CN": "单面尺寸必须在 1..32767 之间。",
+    "en": "Face size must be between 1 and 32767."
+  },
+  "error.models.compression": {
+    "zh-CN": "仅支持 DXT1 / DXT5。",
+    "en": "Only DXT1 / DXT5 are supported."
+  },
+  "error.models.payload": {
+    "zh-CN": "压缩正文长度为 {actual}，预期 {expected}。",
+    "en": "Compressed data has {actual} bytes; expected {expected}."
+  },
+  "error.models.rgb_array": {
+    "zh-CN": "RGB 必须为 uint8 H×W×3 数组。",
+    "en": "RGB must be a uint8 H×W×3 array."
+  },
+  "error.models.square": {
+    "zh-CN": "天空盒面必须为非空正方形。",
+    "en": "Cube faces must be non-empty squares."
+  },
+  "error.models.alpha_array": {
+    "zh-CN": "Alpha 必须为匹配 RGB 尺寸的 uint8 单通道数组。",
+    "en": "Alpha must be a uint8 grayscale array matching RGB dimensions."
+  },
+  "error.models.six_faces": {
+    "zh-CN": "天空盒需要六个面。",
+    "en": "A cubemap requires six faces."
+  },
+  "error.models.matching_faces": {
+    "zh-CN": "六面的分辨率和压缩格式必须一致。",
+    "en": "All six faces must have matching dimensions and compression."
+  },
+  "error.formats.unsupported_fourcc": {
+    "zh-CN": "仅支持 DXT1 或 DXT5，当前为 {format}。",
+    "en": "Only DXT1 or DXT5 are supported; received {format}."
+  },
+  "error.formats.dds_format": {
+    "zh-CN": "不支持的 DDS 压缩格式：{format}。",
+    "en": "Unsupported DDS compression: {format}."
+  },
+  "error.formats.iwi_format": {
+    "zh-CN": "不支持的 IWI 压缩格式：0x{format:02X}。",
+    "en": "Unsupported IWI compression: 0x{format:02X}."
+  },
+  "error.formats.dds_short": {
+    "zh-CN": "DDS 头部不完整。",
+    "en": "The DDS header is incomplete."
+  },
+  "error.formats.dds_magic": {
+    "zh-CN": "文件不是标准 DDS。",
+    "en": "The file is not a standard DDS."
+  },
+  "error.formats.dds_header": {
+    "zh-CN": "DDS 头大小为 {actual}，预期 124。",
+    "en": "DDS header size is {actual}; expected 124."
+  },
+  "error.formats.dds_pixel_header": {
+    "zh-CN": "DDS 像素格式头大小为 {actual}，预期 32。",
+    "en": "DDS pixel format header size is {actual}; expected 32."
+  },
+  "error.formats.dds_dimensions": {
+    "zh-CN": "DDS 尺寸必须为正数。",
+    "en": "DDS dimensions must be positive."
+  },
+  "error.formats.dds_square": {
+    "zh-CN": "DDS 必须为正方形，当前为 {width}×{height}。",
+    "en": "DDS must be square; received {width}×{height}."
+  },
+  "error.formats.dds_fourcc": {
+    "zh-CN": "DDS 必须使用 FOURCC 压缩格式。",
+    "en": "DDS must use a FOURCC compressed format."
+  },
+  "error.formats.dds_dx10": {
+    "zh-CN": "当前不支持 DX10 扩展头 DDS。",
+    "en": "DX10 extended DDS headers are not supported."
+  },
+  "error.formats.dds_cube": {
+    "zh-CN": "请提供六张单面 DDS。",
+    "en": "Provide six separate single-face DDS files."
+  },
+  "error.formats.dds_mips": {
+    "zh-CN": "仅支持单层 DDS，当前 mip 数为 {count}。",
+    "en": "Only single-level DDS files are supported; received {count} mip levels."
+  },
+  "error.formats.dds_payload": {
+    "zh-CN": "DDS 压缩正文为 {actual} 字节，预期 {expected}。",
+    "en": "DDS data has {actual} bytes; expected {expected}."
+  },
+  "error.formats.dds_faces": {
+    "zh-CN": "必须提供六张 DDS 面图。",
+    "en": "Six DDS faces are required."
+  },
+  "error.formats.dds_sizes": {
+    "zh-CN": "六张 DDS 的尺寸必须一致。",
+    "en": "All six DDS faces must have matching dimensions."
+  },
+  "error.formats.dds_formats": {
+    "zh-CN": "六张 DDS 的压缩格式必须一致。",
+    "en": "All six DDS faces must use the same compression."
+  },
+  "error.formats.iwi_version": {
+    "zh-CN": "不支持 IWI 版本 {version}，支持 V6 和 V8。",
+    "en": "IWI version {version} is unsupported. Supported versions: V6 and V8."
+  },
+  "error.formats.iwi_header_size": {
+    "zh-CN": "生成 IWI 头长度为 {actual}，预期 {expected}。",
+    "en": "Generated IWI header has {actual} bytes; expected {expected}."
+  },
+  "error.formats.iwi_short": {
+    "zh-CN": "IWI 头部不完整。",
+    "en": "The IWI header is incomplete."
+  },
+  "error.formats.iwi_v8_short": {
+    "zh-CN": "IWI V8 头部不完整。",
+    "en": "The IWI V8 header is incomplete."
+  },
+  "error.formats.iwi_magic": {
+    "zh-CN": "文件不是标准 IWI。",
+    "en": "The file is not a standard IWI."
+  },
+  "error.formats.iwi_dimensions": {
+    "zh-CN": "IWI 尺寸无效：{width}×{height}。",
+    "en": "Invalid IWI dimensions: {width}×{height}."
+  },
+  "error.formats.iwi_square": {
+    "zh-CN": "IWI 必须为正方形，当前为 {width}×{height}。",
+    "en": "IWI must be square; received {width}×{height}."
+  },
+  "error.formats.iwi_depth": {
+    "zh-CN": "仅支持 depth=1，当前为 {depth}。",
+    "en": "Only depth=1 is supported; received {depth}."
+  },
+  "error.formats.iwi_payload": {
+    "zh-CN": "IWI 六面压缩正文为 {actual} 字节，预期 {expected}。",
+    "en": "IWI face data has {actual} bytes; expected {expected}."
+  },
+  "error.formats.iwi_sizes": {
+    "zh-CN": "IWI 头部尺寸字段不符合六面天空盒布局。",
+    "en": "IWI header sizes do not match the six-face skybox layout."
+  },
+  "error.formats.dds_header_size": {
+    "zh-CN": "生成 DDS 头长度为 {actual}，预期 128。",
+    "en": "Generated DDS header has {actual} bytes; expected 128."
+  },
+  "error.images.atlas_geometry": {
+    "zh-CN": "十字图 {width}×{height} 不符合 4N+2G / 3N+2G。",
+    "en": "Cross atlas {width}×{height} does not fit 4N+2G / 3N+2G."
+  },
+  "error.images.png_required": {
+    "zh-CN": "十字图输入必须为 PNG。",
+    "en": "The cross atlas must be a PNG."
+  },
+  "error.images.alpha_png": {
+    "zh-CN": "Alpha 数据图必须为 8-bit 单通道（L）PNG。",
+    "en": "Alpha data must be an 8-bit grayscale (L) PNG."
+  },
+  "error.images.atlas_sizes": {
+    "zh-CN": "RGB 与 Alpha 十字图尺寸必须一致。",
+    "en": "RGB and alpha atlases must have matching dimensions."
+  },
+  "error.nvtt.options": {
+    "zh-CN": "无效的 NVTT 设备或压缩质量。",
+    "en": "Invalid NVTT device or quality setting."
+  },
+  "error.nvtt.cuda": {
+    "zh-CN": "NVTT 无法启用 CUDA，请检查显卡和驱动或选择 CPU。",
+    "en": "NVTT could not enable CUDA. Check the GPU and driver or select CPU."
+  },
+  "error.nvtt.create": {
+    "zh-CN": "NVTT 无法创建 {kind}。",
+    "en": "NVTT could not create {kind}."
+  },
+  "error.nvtt.operation": {
+    "zh-CN": "NVTT {mode} · {operation} 失败。",
+    "en": "NVTT {mode} · {operation} failed."
+  },
+  "error.nvtt.thread": {
+    "zh-CN": "NVTT 对象必须在创建它的线程中使用和释放。",
+    "en": "NVTT objects must be used and released on their owning thread."
+  },
+  "error.nvtt.compression": {
+    "zh-CN": "仅支持 BC1 / BC3。",
+    "en": "Only BC1 / BC3 are supported."
+  },
+  "error.nvtt.alpha": {
+    "zh-CN": "BC3 制作需要独立 Alpha 数据。",
+    "en": "BC3 encoding requires separate alpha data."
+  },
+  "op.initialize": {
+    "zh-CN": "初始化",
+    "en": "Initialize"
+  },
+  "op.upload": {
+    "zh-CN": "上传像素",
+    "en": "Upload pixels"
+  },
+  "op.encode": {
+    "zh-CN": "编码",
+    "en": "Encode"
+  },
+  "op.decode": {
+    "zh-CN": "解码",
+    "en": "Decode"
+  },
+  "empty.workspace": {
+    "zh-CN": "打开十字图、全景图或 IWI，开始处理天空盒\nCtrl+O 打开文件 · 也可拖入窗口\n六面 PNG 或 DDS 请从“文件”菜单导入",
+    "en": "Open a cross atlas, panorama or IWI to work on a skybox\nCtrl+O to open · Drop files into the window\nUse File to open six PNG or DDS faces"
+  },
+  "action.open": {
+    "zh-CN": "打开十字图／IWI…",
+    "en": "Open cross atlas / IWI…"
+  },
+  "action.open_dds": {
+    "zh-CN": "打开六面 DDS…",
+    "en": "Open six DDS faces…"
+  },
+  "action.assign_dds": {
+    "zh-CN": "指定六面 DDS…",
+    "en": "Assign DDS faces…"
+  },
+  "action.close_tab": {
+    "zh-CN": "关闭当前标签",
+    "en": "Close current tab"
+  },
+  "action.reload": {
+    "zh-CN": "重新读取来源",
+    "en": "Reload source"
+  },
+  "action.relocate": {
+    "zh-CN": "重新定位来源…",
+    "en": "Locate source…"
+  },
+  "action.compress_face": {
+    "zh-CN": "预览当前面压缩",
+    "en": "Compress current face"
+  },
+  "action.export": {
+    "zh-CN": "导出…",
+    "en": "Export…"
+  },
+  "action.cancel_task": {
+    "zh-CN": "取消任务",
+    "en": "Cancel task"
+  },
+  "action.focus_canvas": {
+    "zh-CN": "专注画布",
+    "en": "Focus canvas"
+  },
+  "action.original": {
+    "zh-CN": "查看原始图像",
+    "en": "View original image"
+  },
+  "action.more": {
+    "zh-CN": "更多画布命令",
+    "en": "More canvas commands"
+  },
+  "dock.output": {
+    "zh-CN": "输出",
+    "en": "Output"
+  },
+  "field.source": {
+    "zh-CN": "来源文件",
+    "en": "Source file"
+  },
+  "field.directory": {
+    "zh-CN": "输出目录",
+    "en": "Output folder"
+  },
+  "field.basename": {
+    "zh-CN": "输出名称",
+    "en": "Output name"
+  },
+  "field.output_type": {
+    "zh-CN": "输出类型",
+    "en": "Output type"
+  },
+  "field.encoding_policy": {
+    "zh-CN": "编码方式",
+    "en": "Encoding"
+  },
+  "field.results": {
+    "zh-CN": "输出文件",
+    "en": "Output files"
+  },
+  "channel.rgb": {
+    "zh-CN": "RGB",
+    "en": "RGB"
+  },
+  "channel.alpha": {
+    "zh-CN": "Alpha",
+    "en": "Alpha"
+  },
+  "channel.rgba": {
+    "zh-CN": "合并",
+    "en": "Composite"
+  },
+  "compare.single": {
+    "zh-CN": "单图",
+    "en": "Single"
+  },
+  "compare.wipe": {
+    "zh-CN": "擦拭对照",
+    "en": "Wipe"
+  },
+  "compare.side": {
+    "zh-CN": "并排对照",
+    "en": "Side by side"
+  },
+  "stage.repaired": {
+    "zh-CN": "修缝后",
+    "en": "Seam repaired"
+  },
+  "stage.input": {
+    "zh-CN": "输入图像",
+    "en": "Source image"
+  },
+  "output.iwi": {
+    "zh-CN": "游戏 IWI",
+    "en": "Game IWI"
+  },
+  "output.dds": {
+    "zh-CN": "六面 DDS",
+    "en": "Six DDS faces"
+  },
+  "output.png": {
+    "zh-CN": "六面 PNG",
+    "en": "Six PNG faces"
+  },
+  "output.atlas": {
+    "zh-CN": "十字图 PNG",
+    "en": "Cross atlas PNG"
+  },
+  "output.mosaic": {
+    "zh-CN": "3×2 网格 PNG",
+    "en": "3×2 grid PNG"
+  },
+  "output.panorama": {
+    "zh-CN": "全景 PNG",
+    "en": "Panorama PNG"
+  },
+  "policy.preserve": {
+    "zh-CN": "保留原压缩正文",
+    "en": "Preserve original blocks"
+  },
+  "policy.encode": {
+    "zh-CN": "重新压缩",
+    "en": "Recompress"
+  },
+  "filter.sources": {
+    "zh-CN": "天空盒来源 (*.png *.iwi)",
+    "en": "Skybox sources (*.png *.iwi)"
+  },
+  "progress.inspect": {
+    "zh-CN": "读取 {face}",
+    "en": "Reading {face}"
+  },
+  "progress.process_face": {
+    "zh-CN": "处理 {face}",
+    "en": "Processing {face}"
+  },
+  "summary.atlas": {
+    "zh-CN": "十字图 · {size} × {size} px／面\n边框 {gutter}px · RGB 4px 修缝",
+    "en": "Cross atlas · {size} × {size} px / face\nGutter {gutter}px · RGB 4px seam repair"
+  },
+  "summary.iwi": {
+    "zh-CN": "IWI V{version} · {format}\n{size} × {size} px／面 · 六面\nflags 0x{flags:X}",
+    "en": "IWI V{version} · {format}\n{size} × {size} px / face · Six faces\nflags 0x{flags:X}"
+  },
+  "summary.dds": {
+    "zh-CN": "{count}／6 面 · {format}\n{size} × {size} px／面",
+    "en": "{count}/6 faces · {format}\n{size} × {size} px / face"
+  },
+  "status.encoding_current": {
+    "zh-CN": "{face} · {format} · {mode} · {quality}\n预览参数与当前设置一致",
+    "en": "{face} · {format} · {mode} · {quality}\nPreview matches current settings"
+  },
+  "status.encoding_previous": {
+    "zh-CN": "正在查看此前结果：\n{face} · {format} · {mode} · {quality}",
+    "en": "Viewing a previous result:\n{face} · {format} · {mode} · {quality}"
+  },
+  "status.encoding_none": {
+    "zh-CN": "先检查当前面；导出会继续处理其余面。",
+    "en": "Inspect one face first; export processes the remaining faces."
+  },
+  "status.preserve_blocks": {
+    "zh-CN": "原压缩正文可直接拆解或重新封装。",
+    "en": "Original blocks can be extracted or repackaged directly."
+  },
+  "status.cancelled": {
+    "zh-CN": "任务已取消，已写出的文件予以保留。",
+    "en": "Task cancelled. Files already written are retained."
+  },
+  "status.cancelling": {
+    "zh-CN": "正在等待当前面完成后取消…",
+    "en": "Cancelling after the current face…"
+  },
+  "status.closing": {
+    "zh-CN": "正在释放预览资源…",
+    "en": "Releasing preview resources…"
+  },
+  "status.close_document_busy": {
+    "zh-CN": "该文档正在处理，请先取消任务再关闭标签。",
+    "en": "This document is processing. Cancel its task before closing the tab."
+  },
+  "result.preview_face": {
+    "zh-CN": "{face} 压缩预览就绪",
+    "en": "{face} compression preview ready"
+  },
+  "result.exported": {
+    "zh-CN": "已导出 {count} 个文件",
+    "en": "Exported {count} files"
+  },
+  "error.source_missing": {
+    "zh-CN": "来源文件不存在：{path}",
+    "en": "Source file not found: {path}"
+  },
+  "error.input_type": {
+    "zh-CN": "请选择 PNG 十字图、全景图或 IWI；六面 PNG／DDS 请使用面槽入口。\n{path}",
+    "en": "Select a PNG cross atlas, panorama or IWI. Use the face slots for six PNG or DDS files.\n{path}"
+  },
+  "error.fluent_style": {
+    "zh-CN": "缺少 Qt Windows 11 样式插件，请使用完整便携目录。",
+    "en": "Qt Windows 11 style plugin is missing. Use the complete portable folder."
+  },
+  "status.document_task": {
+    "zh-CN": "{document} · {stage}",
+    "en": "{document} · {stage}"
+  },
+  "error.task_stage": {
+    "zh-CN": "阶段：{stage}\n{reason}",
+    "en": "Stage: {stage}\n{reason}"
+  },
+  "status.image_export": {
+    "zh-CN": "按所选导出通道生成图片。",
+    "en": "Save images using the selected export channels."
+  },
+  "appearance.label": {
+    "zh-CN": "外观",
+    "en": "Appearance"
+  },
+  "theme.system": {
+    "zh-CN": "跟随系统",
+    "en": "System"
+  },
+  "background.auto": {
+    "zh-CN": "自动背景",
+    "en": "Auto background"
+  },
+  "group.output_content": {
+    "zh-CN": "输出内容",
+    "en": "Output content"
+  },
+  "group.encoding": {
+    "zh-CN": "编码设置",
+    "en": "Encoding settings"
+  },
+  "group.save_location": {
+    "zh-CN": "保存位置",
+    "en": "Save location"
+  },
+  "group.result_summary": {
+    "zh-CN": "结果摘要",
+    "en": "Result summary"
+  },
+  "encoding.summary": {
+    "zh-CN": "{format} · {mode} · {quality}",
+    "en": "{format} · {mode} · {quality}"
+  },
+  "action.export_type": {
+    "zh-CN": "导出 {output}",
+    "en": "Export {output}"
+  },
+  "error.font_load": {
+    "zh-CN": "无法加载界面字体：{path}",
+    "en": "Unable to load UI font: {path}"
+  },
+  "action.open_png_faces": {
+    "zh-CN": "打开六面 PNG…",
+    "en": "Open six PNG faces…"
+  },
+  "action.assign_png": {
+    "zh-CN": "指定六面 PNG…",
+    "en": "Assign six PNG faces…"
+  },
+  "dialog.assign_png_title": {
+    "zh-CN": "指定六面 PNG",
+    "en": "Assign six PNG faces"
+  },
+  "dialog.assign_png_body": {
+    "zh-CN": "为每个方向选择或拖入一张 PNG。六面必须是同尺寸正方形。",
+    "en": "Select or drop a PNG for each direction. All six images must be square and the same size."
+  },
+  "summary.png_faces": {
+    "zh-CN": "PNG · 六面 · {size} × {size} px／面",
+    "en": "PNG · Six faces · {size} × {size} px per face"
+  },
+  "output.rgb24": {
+    "zh-CN": "IWI · 未压缩 RGB24",
+    "en": "IWI · Uncompressed RGB24"
+  },
+  "status.rgb24": {
+    "zh-CN": "IWI v{version} · RGB24 · {size} × {size} px／面\n预计文件大小 {mib:.2f} MiB",
+    "en": "IWI v{version} · RGB24 · {size} × {size} px per face\nEstimated file size {mib:.2f} MiB"
+  },
+  "error.png_six": {
+    "zh-CN": "请选择全部六张 PNG。",
+    "en": "Select all six PNG faces."
+  },
+  "error.png_dimensions": {
+    "zh-CN": "{face}面的尺寸与其他面不一致。",
+    "en": "The {face} face differs in size from the other faces."
+  },
+  "error.rgb24_size": {
+    "zh-CN": "RGB24 单面尺寸超出 IWI 尺寸字段范围，当前为 {size}。",
+    "en": "RGB24 face size {size} is outside the IWI dimension field range."
+  },
+  "error.rgb24_alpha": {
+    "zh-CN": "{face}面含透明像素，RGB24 只支持不透明像素。",
+    "en": "The {face} face contains transparent pixels. RGB24 requires opaque pixels."
+  },
+  "error.rgb24_flags": {
+    "zh-CN": "RGB24 IWI 须为单 mip 的立方体贴图。",
+    "en": "An RGB24 IWI must be a single-mip cubemap."
+  },
+  "background.transparent": {
+    "zh-CN": "透明",
+    "en": "Transparent"
+  },
+  "layout.cube": {
+    "zh-CN": "3D 预览",
+    "en": "3D preview"
+  },
+  "status.cube_camera": {
+    "zh-CN": "垂直视野 {fov:.0f}°  ·  朝向 {face}",
+    "en": "Vertical FOV {fov:.0f}°  ·  Facing {face}"
+  },
+  "error.cube_incomplete": {
+    "zh-CN": "补齐六面后即可进入 3D 预览。",
+    "en": "Assign all six faces to view the skybox in 3D."
+  },
+  "error.gl_context": {
+    "zh-CN": "无法创建 3D 预览。需要显卡驱动支持 OpenGL 3.3。",
+    "en": "3D preview requires a graphics driver with OpenGL 3.3 support."
+  },
+  "error.gl_shader": {
+    "zh-CN": "3D 预览着色器初始化失败。",
+    "en": "Could not initialize the 3D preview shader."
+  },
+  "error.gl_size": {
+    "zh-CN": "单面 {size} 像素，超过设备上限 {limit}。",
+    "en": "Face size {size} px exceeds the device limit of {limit} px."
+  },
+  "error.gl_render": {
+    "zh-CN": "3D 预览绘制失败。",
+    "en": "Could not draw the 3D preview."
+  },
+  "error.gl_upload": {
+    "zh-CN": "无法把六面贴图上传到显卡。",
+    "en": "Could not upload the six faces to the graphics device."
+  },
+  "action.open_panorama": {
+    "zh-CN": "打开全景 PNG…",
+    "en": "Open panorama PNG…"
+  },
+  "field.panorama_size": {
+    "zh-CN": "单面尺寸",
+    "en": "Face size"
+  },
+  "field.panorama_yaw": {
+    "zh-CN": "水平朝向",
+    "en": "Horizontal rotation"
+  },
+  "summary.panorama": {
+    "zh-CN": "全景 PNG · {width} × {height} px\n单面 {size} × {size} px · 朝向 {yaw}°",
+    "en": "Panorama PNG · {width} × {height} px\n{size} × {size} px per face · Rotation {yaw}°"
+  },
+  "error.panorama_geometry": {
+    "zh-CN": "全景 PNG 需要完整的 360° × 180° 等距柱状图，宽高比为 2∶1。当前为 {width} × {height}。",
+    "en": "Use a full 360° × 180° equirectangular PNG with a 2:1 aspect ratio. The image is {width} × {height}."
+  },
+  "error.panorama_size": {
+    "zh-CN": "全景转换的单面尺寸请选择 512、1024、2048 或 4096。",
+    "en": "Choose a panorama face size of 512, 1024, 2048 or 4096."
+  },
+  "field.export_channel": {
+    "zh-CN": "导出通道",
+    "en": "Export channels"
+  },
+  "field.repair_seams": {
+    "zh-CN": "4px RGB 修缝",
+    "en": "Repair 4px RGB seams"
+  },
+  "error.rgb24_length": {
+    "zh-CN": "单面 {size} 的 RGB24 IWI 共 {total} 字节，超出 IWI 文件长度字段范围。",
+    "en": "RGB24 IWI with {size} px faces requires {total} bytes, exceeding the IWI file length field range."
+  },
+  "error.export_channel": {
+    "zh-CN": "不支持的导出通道：{channel}。",
+    "en": "Unsupported export channel: {channel}."
+  },
+  "error.nvtt.sdk_directory": {
+    "zh-CN": "请将 NVTT_SDK_DIR 环境变量设置为 NVTT SDK 根目录。",
+    "en": "Set the NVTT_SDK_DIR environment variable to the NVTT SDK directory."
+  },
+  "about.project_license": {
+    "zh-CN": "项目许可（MIT）",
+    "en": "Project license (MIT)"
+  }
+}

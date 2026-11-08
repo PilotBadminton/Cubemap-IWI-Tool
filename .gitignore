@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+
+build/
+dist/
+.build-env/
+*.spec.bak
+
+# Local sample/extracted game assets. Keep these out of public source control.
+IWI_compare/
+
+# Retired icon source retained locally.
+/skybox.png
+
+# Local build logs, historical packages, and retired UI font assets.
+/build-release.log
+/release/
+/assets/fonts/
+
+# Local document revision backups.
+/docs/pre-polish-backup/
+
+# Local screenshot source directory.
+/imageshow/

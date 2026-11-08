@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="492" viewBox="0 0 960 492" role="img">
+  <title>六面边缘对应关系</title>
+  <desc>十二条接缝，边名以各面的二维图像为准</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 8 4 L 0 8 Z" fill="#586977" />
+    </marker>
+  </defs>
+  <g font-family="Microsoft YaHei UI">
+    <rect x="1" y="1" width="958" height="490" rx="12" fill="#F7F9FA" stroke="#D7E0E6" />
+    <text x="28" y="43" font-size="28" fill="#243441" font-weight="600" text-anchor="start">六面边缘对应关系</text>
+    <text x="28" y="76" font-size="18" fill="#586977" font-weight="400" text-anchor="start">十二条接缝，边名以各面的二维图像为准</text>
+    <rect x="24" y="108" width="288" height="316" rx="8" fill="white" stroke="#CBD5DC" />
+    <text x="40" y="141" font-size="21" fill="#243441" font-weight="600" text-anchor="start">侧面环接</text>
+    <g id="seam-rt-left-ft-right">
+      <rect x="40" y="162" width="40" height="40" rx="3" fill="#E5F0F3" stroke="#9BAEB8" />
+      <line x1="40" y1="162" x2="40" y2="202" stroke="#146F7C" stroke-width="3.5" />
+      <text x="60" y="189" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">rt</text>
+      <rect x="232" y="162" width="40" height="40" rx="3" fill="#DDEFEA" stroke="#9BAEB8" />
+      <line x1="272" y1="162" x2="272" y2="202" stroke="#146F7C" stroke-width="3.5" />
+      <text x="252" y="189" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">ft</text>
+      <text x="156" y="178" font-size="18" fill="#586977" font-weight="400" text-anchor="middle">左 / 右</text>
+      <line x1="94" y1="194" x2="218" y2="194" stroke="#586977" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+    </g>
+    <g id="seam-rt-right-bk-left">
+      <rect x="40" y="224" width="40" height="40" rx="3" fill="#E5F0F3" stroke="#9BAEB8" />
+      <line x1="80" y1="224" x2="80" y2="264" stroke="#146F7C" stroke-width="3.5" />
+      <text x="60" y="251" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">rt</text>
+      <rect x="232" y="224" width="40" height="40" rx="3" fill="#EBEEE4" stroke="#9BAEB8" />
+      <line x1="232" y1="224" x2="232" y2="264" stroke="#146F7C" stroke-width="3.5" />
+      <text x="252" y="251" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">bk</text>
+      <text x="156" y="240" font-size="18" fill="#586977" font-weight="400" text-anchor="middle">右 / 左</text>
+      <line x1="94" y1="256" x2="218" y2="256" stroke="#586977" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+    </g>
+    <g id="seam-lf-left-bk-right">
+      <rect x="40" y="286" width="40" height="40" rx="3" fill="#EEEAF5" stroke="#9BAEB8" />
+      <line x1="40" y1="286" x2="40" y2="326" stroke="#146F7C" stroke-width="3.5" />
+      <text x="60" y="313" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">lf</text>
+      <rect x="232" y="286" width="40" height="40" rx="3" fill="#EBEEE4" stroke="#9BAEB8" />
+      <line x1="272" y1="286" x2="272" y2="326" stroke="#146F7C" stroke-width="3.5" />
+      <text x="252" y="313" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">bk</text>
+      <text x="156" y="302" font-size="18" fill="#586977" font-weight="400" text-anchor="middle">左 / 右</text>
+      <line x1="94" y1="318" x2="218" y2="318" stroke="#586977" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+    </g>
+    <g id="seam-lf-right-ft-left">
+      <rect x="40" y="348" width="40" height="40" rx="3" fill="#EEEAF5" stroke="#9BAEB8" />
+      <line x1="80" y1="348" x2="80" y2="388" stroke="#146F7C" stroke-width="3.5" />
+      <text x="60" y="375" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">lf</text>
+      <rect x="232" y="348" width="40" height="40" rx="3" fill="#DDEFEA" stroke="#9BAEB8" />
+      <line x1="232" y1="348" x2="232" y2="388" stroke="#146F7C" stroke-width="3.5" />
+      <text x="252" y="375" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">ft</text>
+      <text x="156" y="364" font-size="18" fill="#586977" font-weight="400" text-anchor="middle">右 / 左</text>
+      <line x1="94" y1="380" x2="218" y2="380" stroke="#586977" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+    </g>
+    <rect x="336" y="108" width="288" height="316" rx="8" fill="white" stroke="#CBD5DC" />
+    <text x="352" y="141" font-size="21" fill="#243441" font-weight="600" text-anchor="start">连接 up</text>
+    <g id="seam-rt-top-up-right">
+      <rect x="352" y="162" width="40" height="40" rx="3" fill="#E5F0F3" stroke="#9BAEB8" />
+      <line x1="352" y1="162" x2="392" y2="162" stroke="#146F7C" stroke-width="3.5" />
+      <text x="372" y="189" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">rt</text>
+      <rect x="544" y="162" width="40" height="40" rx="3" fill="#E8EFF8" stroke="#9BAEB8" />
+      <line x1="584" y1="162" x2="584" y2="202" stroke="#146F7C" stroke-width="3.5" />
+      <text x="564" y="189" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">up</text>
+      <text x="468" y="178" font-size="18" fill="#586977" font-weight="400" text-anchor="middle">上 / 右</text>
+      <line x1="406" y1="194" x2="530" y2="194" stroke="#586977" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+      <rect x="590" y="169" width="25" height="26" rx="4" fill="#FAECDC" stroke="#D6A778" />
+      <text x="602.5" y="188" font-size="17" fill="#B86527" font-weight="600" text-anchor="middle">R</text>
+    </g>
+    <g id="seam-lf-top-up-left">
+      <rect x="352" y="224" width="40" height="40" rx="3" fill="#EEEAF5" stroke="#9BAEB8" />
+      <line x1="352" y1="224" x2="392" y2="224" stroke="#146F7C" stroke-width="3.5" />
+      <text x="372" y="251" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">lf</text>
+      <rect x="544" y="224" width="40" height="40" rx="3" fill="#E8EFF8" stroke="#9BAEB8" />
+      <line x1="544" y1="224" x2="544" y2="264" stroke="#146F7C" stroke-width="3.5" />
+      <text x="564" y="251" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">up</text>
+      <text x="468" y="240" font-size="18" fill="#586977" font-weight="400" text-anchor="middle">上 / 左</text>
+      <line x1="406" y1="256" x2="530" y2="256" stroke="#586977" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+    </g>
+    <g id="seam-up-top-bk-top">
+      <rect x="352" y="286" width="40" height="40" rx="3" fill="#E8EFF8" stroke="#9BAEB8" />
+      <line x1="352" y1="286" x2="392" y2="286" stroke="#146F7C" stroke-width="3.5" />
+      <text x="372" y="313" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">up</text>
+      <rect x="544" y="286" width="40" height="40" rx="3" fill="#EBEEE4" stroke="#9BAEB8" />
+      <line x1="544" y1="286" x2="584" y2="286" stroke="#146F7C" stroke-width="3.5" />
+      <text x="564" y="313" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">bk</text>
+      <text x="468" y="302" font-size="18" fill="#586977" font-weight="400" text-anchor="middle">上 / 上</text>
+      <line x1="406" y1="318" x2="530" y2="318" stroke="#586977" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+      <rect x="590" y="293" width="25" height="26" rx="4" fill="#FAECDC" stroke="#D6A778" />
+      <text x="602.5" y="312" font-size="17" fill="#B86527" font-weight="600" text-anchor="middle">R</text>
+    </g>
+    <g id="seam-up-bottom-ft-top">
+      <rect x="352" y="348" width="40" height="40" rx="3" fill="#E8EFF8" stroke="#9BAEB8" />
+      <line x1="352" y1="388" x2="392" y2="388" stroke="#146F7C" stroke-width="3.5" />
+      <text x="372" y="375" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">up</text>
+      <rect x="544" y="348" width="40" height="40" rx="3" fill="#DDEFEA" stroke="#9BAEB8" />
+      <line x1="544" y1="348" x2="584" y2="348" stroke="#146F7C" stroke-width="3.5" />
+      <text x="564" y="375" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">ft</text>
+      <text x="468" y="364" font-size="18" fill="#586977" font-weight="400" text-anchor="middle">下 / 上</text>
+      <line x1="406" y1="380" x2="530" y2="380" stroke="#586977" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+    </g>
+    <rect x="648" y="108" width="288" height="316" rx="8" fill="white" stroke="#CBD5DC" />
+    <text x="664" y="141" font-size="21" fill="#243441" font-weight="600" text-anchor="start">连接 dn</text>
+    <g id="seam-rt-bottom-dn-right">
+      <rect x="664" y="162" width="40" height="40" rx="3" fill="#E5F0F3" stroke="#9BAEB8" />
+      <line x1="664" y1="202" x2="704" y2="202" stroke="#146F7C" stroke-width="3.5" />
+      <text x="684" y="189" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">rt</text>
+      <rect x="856" y="162" width="40" height="40" rx="3" fill="#F5EDDF" stroke="#9BAEB8" />
+      <line x1="896" y1="162" x2="896" y2="202" stroke="#146F7C" stroke-width="3.5" />
+      <text x="876" y="189" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">dn</text>
+      <text x="780" y="178" font-size="18" fill="#586977" font-weight="400" text-anchor="middle">下 / 右</text>
+      <line x1="718" y1="194" x2="842" y2="194" stroke="#586977" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+    </g>
+    <g id="seam-lf-bottom-dn-left">
+      <rect x="664" y="224" width="40" height="40" rx="3" fill="#EEEAF5" stroke="#9BAEB8" />
+      <line x1="664" y1="264" x2="704" y2="264" stroke="#146F7C" stroke-width="3.5" />
+      <text x="684" y="251" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">lf</text>
+      <rect x="856" y="224" width="40" height="40" rx="3" fill="#F5EDDF" stroke="#9BAEB8" />
+      <line x1="856" y1="224" x2="856" y2="264" stroke="#146F7C" stroke-width="3.5" />
+      <text x="876" y="251" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">dn</text>
+      <text x="780" y="240" font-size="18" fill="#586977" font-weight="400" text-anchor="middle">下 / 左</text>
+      <line x1="718" y1="256" x2="842" y2="256" stroke="#586977" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+      <rect x="902" y="231" width="25" height="26" rx="4" fill="#FAECDC" stroke="#D6A778" />
+      <text x="914.5" y="250" font-size="17" fill="#B86527" font-weight="600" text-anchor="middle">R</text>
+    </g>
+    <g id="seam-dn-top-ft-bottom">
+      <rect x="664" y="286" width="40" height="40" rx="3" fill="#F5EDDF" stroke="#9BAEB8" />
+      <line x1="664" y1="286" x2="704" y2="286" stroke="#146F7C" stroke-width="3.5" />
+      <text x="684" y="313" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">dn</text>
+      <rect x="856" y="286" width="40" height="40" rx="3" fill="#DDEFEA" stroke="#9BAEB8" />
+      <line x1="856" y1="326" x2="896" y2="326" stroke="#146F7C" stroke-width="3.5" />
+      <text x="876" y="313" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">ft</text>
+      <text x="780" y="302" font-size="18" fill="#586977" font-weight="400" text-anchor="middle">上 / 下</text>
+      <line x1="718" y1="318" x2="842" y2="318" stroke="#586977" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+    </g>
+    <g id="seam-dn-bottom-bk-bottom">
+      <rect x="664" y="348" width="40" height="40" rx="3" fill="#F5EDDF" stroke="#9BAEB8" />
+      <line x1="664" y1="388" x2="704" y2="388" stroke="#146F7C" stroke-width="3.5" />
+      <text x="684" y="375" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">dn</text>
+      <rect x="856" y="348" width="40" height="40" rx="3" fill="#EBEEE4" stroke="#9BAEB8" />
+      <line x1="856" y1="388" x2="896" y2="388" stroke="#146F7C" stroke-width="3.5" />
+      <text x="876" y="375" font-size="20" fill="#243441" font-weight="600" text-anchor="middle">bk</text>
+      <text x="780" y="364" font-size="18" fill="#586977" font-weight="400" text-anchor="middle">下 / 下</text>
+      <line x1="718" y1="380" x2="842" y2="380" stroke="#586977" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+      <rect x="902" y="355" width="25" height="26" rx="4" fill="#FAECDC" stroke="#D6A778" />
+      <text x="914.5" y="374" font-size="17" fill="#B86527" font-weight="600" text-anchor="middle">R</text>
+    </g>
+    <rect x="24" y="443" width="25" height="26" rx="4" fill="#FAECDC" stroke="#D6A778" />
+    <text x="36.5" y="462" font-size="17" fill="#B86527" font-weight="600" text-anchor="middle">R</text>
+    <text x="62" y="463" font-size="19" fill="#586977" font-weight="400" text-anchor="start">两条边的像素顺序相反</text>
+  </g>
+</svg>
